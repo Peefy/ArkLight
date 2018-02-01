@@ -9,6 +9,16 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkLight.Net20", "src\ArkLi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkLight.Net45", "src\ArkLight.Net45\ArkLight.Net45.csproj", "{551D41C6-83C5-4329-89F4-7A62951D8D50}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{0B2A82F8-6562-4FF2-A1BC-68A9916DC5B2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{18E430FE-44EF-438D-8379-E4C27C622CE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A6ABFA22-6012-4CD3-A47C-ABB08BC54E77}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkLight.Example.ConsoleAppNet20", "ArkLight.Example.ConsoleAppNet20\ArkLight.Example.ConsoleAppNet20.csproj", "{CF286A6E-885A-41DE-BFEA-6A1B091B8B6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkLight.ExampleConsoleAppNetCore", "ArkLight.ExampleConsoleAppNetCore\ArkLight.ExampleConsoleAppNetCore.csproj", "{C848D6BD-423E-48B4-A93D-8E457D727BD1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,9 +37,24 @@ Global
 		{551D41C6-83C5-4329-89F4-7A62951D8D50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{551D41C6-83C5-4329-89F4-7A62951D8D50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{551D41C6-83C5-4329-89F4-7A62951D8D50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF286A6E-885A-41DE-BFEA-6A1B091B8B6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF286A6E-885A-41DE-BFEA-6A1B091B8B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF286A6E-885A-41DE-BFEA-6A1B091B8B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF286A6E-885A-41DE-BFEA-6A1B091B8B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C848D6BD-423E-48B4-A93D-8E457D727BD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C848D6BD-423E-48B4-A93D-8E457D727BD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C848D6BD-423E-48B4-A93D-8E457D727BD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C848D6BD-423E-48B4-A93D-8E457D727BD1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A21F460-FC19-41F1-AC2C-BD37B7945BA8} = {A6ABFA22-6012-4CD3-A47C-ABB08BC54E77}
+		{52962C16-CC86-44F5-B0FF-E8511FC259C2} = {A6ABFA22-6012-4CD3-A47C-ABB08BC54E77}
+		{551D41C6-83C5-4329-89F4-7A62951D8D50} = {A6ABFA22-6012-4CD3-A47C-ABB08BC54E77}
+		{CF286A6E-885A-41DE-BFEA-6A1B091B8B6F} = {0B2A82F8-6562-4FF2-A1BC-68A9916DC5B2}
+		{C848D6BD-423E-48B4-A93D-8E457D727BD1} = {0B2A82F8-6562-4FF2-A1BC-68A9916DC5B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3762707A-0499-4AE9-8321-F8D9803D9123}
