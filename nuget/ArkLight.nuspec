@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>ArkLight</id>
+    <version>0.0.1</version>
+    <authors>DuGu.Peefy</authors>
+    <owners>xpf6677@163.com</owners>
+    <iconUrl>https://github.com/Peefy/ArkLight/blob/master/images/icon.png?raw=true</iconUrl>
+    <licenseUrl>https://github.com/Peefy/ArkLight</licenseUrl>
+    <projectUrl>https://github.com/Peefy/ArkLight</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <tags>ArkLight;Util;Helper;.NET Standard;.NET Core;Xamarin;.NET Framework2.0;.NET Framework4.5</tags>
+    <description>A C# util library support .NET Framework2.0+ .NET Core2.0 .NET Standard2.0 and Xamarin.</description>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+      </group>
+      <group targetFramework=".NETFramework4.5">
+      </group>
+      <group targetFramework=".NETFramework2.0">
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="..\src\ArkLight\bin\Release\netstandard2.0\ArkLight.dll" target="lib\netstandard2.0\ArkLight.dll" />
+    <file src="..\src\ArkLight\bin\Release\netstandard2.0\ArkLight.pdb" target="lib\netstandard2.0\ArkLight.pdb" />
+    <file src="..\src\ArkLight.Net45\bin\Release\ArkLight.dll" target="lib\net45\ArkLight.dll" />
+    <file src="..\src\ArkLight.Net45\bin\Release\ArkLight.pdb" target="lib\net45\ArkLight.pdb" />
+    <file src="..\src\ArkLight.Net20\bin\Release\ArkLight.dll" target="lib\net20\ArkLight.dll" />
+    <file src="..\src\ArkLight.Net20\bin\Release\ArkLight.pdb" target="lib\net20\ArkLight.pdb" />
+  </files>
+</package>
