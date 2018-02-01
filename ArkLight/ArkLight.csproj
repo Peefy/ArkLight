@@ -14,7 +14,9 @@
 
   <ItemGroup>
     <Folder Include="Extension\" />
-    <Folder Include="Number\" />
+    <Folder Include="Web\" />
+    <Folder Include="Security\" />
+    <Folder Include="Cmd\" />
   </ItemGroup>
 
 </Project>
