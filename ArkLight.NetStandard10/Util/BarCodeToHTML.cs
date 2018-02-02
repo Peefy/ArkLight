@@ -1,4 +1,5 @@
 ﻿using System.Collections;
+using System.Collections.Generic;
 using System.Text.RegularExpressions;
 
 namespace ArkLight.Util
@@ -7,7 +8,7 @@ namespace ArkLight.Util
     {
         public static string Get39(string s, int width, int height)
         {
-            Hashtable ht = new Hashtable();
+            Dictionary<char, string> ht = new Dictionary<char, string>();
 
             #region 39码 12位
             ht.Add('A', "110101001011");

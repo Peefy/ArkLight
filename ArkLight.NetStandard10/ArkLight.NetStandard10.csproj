@@ -1,7 +1,9 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>netstandard2.0</TargetFramework>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <AssemblyName>ArkLight</AssemblyName>
+    <RootNamespace>ArkLight</RootNamespace>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
@@ -13,8 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Extension\" />
-    <Folder Include="Security\" />
+    <Folder Include="Cmd\" />
   </ItemGroup>
 
 </Project>

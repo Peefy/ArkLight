@@ -23,6 +23,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ArkLight.ExampleConsoleAppN
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2E6F6A20-F71E-494B-83D4-045EAB02AEA3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArkLight.NetStandard10", "ArkLight.NetStandard10\ArkLight.NetStandard10.csproj", "{27380EB9-93DA-46C0-AAE1-738D6BE79102}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{31AF9440-8172-4D00-8841-5D59FCED4D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31AF9440-8172-4D00-8841-5D59FCED4D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31AF9440-8172-4D00-8841-5D59FCED4D69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27380EB9-93DA-46C0-AAE1-738D6BE79102}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27380EB9-93DA-46C0-AAE1-738D6BE79102}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27380EB9-93DA-46C0-AAE1-738D6BE79102}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27380EB9-93DA-46C0-AAE1-738D6BE79102}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +75,7 @@ Global
 		{06FBE020-E703-4CE4-9264-31267EB5337D} = {37F84FAC-890B-461C-B74F-6E019C1A171A}
 		{3033CE39-C116-42DE-8061-C3AED7FC6DFB} = {37F84FAC-890B-461C-B74F-6E019C1A171A}
 		{31AF9440-8172-4D00-8841-5D59FCED4D69} = {37F84FAC-890B-461C-B74F-6E019C1A171A}
+		{27380EB9-93DA-46C0-AAE1-738D6BE79102} = {A6ABFA22-6012-4CD3-A47C-ABB08BC54E77}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3762707A-0499-4AE9-8321-F8D9803D9123}

@@ -25,25 +25,29 @@ A C# util library support .NET Framework2.0+ .NET Core2.0 .NET Standard2.0 and X
 
 * .NETFramework 4.6+ (.NET4.5): None
 
-* .NETCore 2.0+  (.NETStandard) : *NETStandard.Library -Version 2.0.0*
+* .NETCore 2.0+  (.NETStandard2.0) : None
 
-* .NETStandard 2.0+ : None
+* .NETStandard 2.0+ : *NETStandard.Library -Version 2.0.0*
 
-* Xamarin.Android (.NETStandard) : None
+* Xamarin.Android (.NETStandard2.0) : None
 
-* Xamarin.iOS (.NETStandard) : None
+* Xamarin.iOS (.NETStandard2.0) : None
 
-* Xamarin.Forms (.NETStandard) : None
+* Xamarin.Mac (.NETStandard2.0) : None
 
-* UWP (.NETStandard) : None
+* Xamarin.Forms (.NETStandard2.0) : None
 
-* WP (.NETStandard) : None
+* UWP (.NETStandard2.0) : None
 
-* SliverLight (.NETStandard) : None
+* WP (.NETStandard1.0) : None
+
+* SliverLight (.NETStandard1.0) : None
+
+* Mono (.NETStandard1.0) : None
 
 # Docs
 
-> *Process*
+> Please see the wiki *Process* 
 
 # Thanks
 
