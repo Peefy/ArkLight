@@ -1,9 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.0</TargetFramework>
-    <AssemblyName>ArkLight.Example.ConsoleAppNetCore</AssemblyName>
+    <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>ArkLight.Example</RootNamespace>
   </PropertyGroup>
 

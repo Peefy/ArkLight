@@ -1,4 +1,5 @@
-﻿using System;
+﻿
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,6 +14,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using ArkLight.Util;
+
 namespace ArkLight.Example.WpfAppNet45
 {
     /// <summary>
@@ -23,6 +26,7 @@ namespace ArkLight.Example.WpfAppNet45
         public MainWindow()
         {
             InitializeComponent();
+            Title = RegexUtil.IsEmail("123@qq.com").ToString();
         }
     }
 }
