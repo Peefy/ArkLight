@@ -12,14 +12,15 @@ namespace ArkLight.Collection
         /// <typeparam name="T"></typeparam>
         /// <param name="list"></param>
         /// <returns></returns>
-        public static string ToListString<T>(IList<T> list)
+        public static string ToListString<T>(this IList<T> list)
         {
             var str = "[";
             if (list?.Count > 0)
             {
                 var count = list.Count;
-                for (var i = 0; i < count; ++i)
-                    str += list[i] + " ";
+                for (var i = 0; i < count - 1; ++i)
+                    str += list[i] + ", ";
+                str += list[count - 1];
             }
             str += "]";
             return str;
@@ -31,14 +32,14 @@ namespace ArkLight.Collection
         /// <typeparam name="T"></typeparam>
         /// <param name="list"></param>
         /// <returns></returns>
-        public static string ToKeyValuePairString<TKey, TValue>(IDictionary<TKey, TValue> dictionary)
+        public static string ToKeyValuePairString<TKey, TValue>(this IDictionary<TKey, TValue> dictionary)
         {
             var str = "{";
             if (dictionary?.Count > 0)
             {
-                var count = dictionary.Count;
                 foreach (var keyValuePair in dictionary)
-                    str += $"\"{keyValuePair.Key}\" : {keyValuePair.Value}";
+                    str += $"\"{keyValuePair.Key}\" : {keyValuePair.Value}, ";
+                str = str.Remove(str.Length - 2 , 2);
             }
             str += "}";
             return str;

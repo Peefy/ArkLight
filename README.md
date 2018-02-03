@@ -5,11 +5,11 @@ A C# util library support .NET Framework2.0+ .NET Core2.0 .NET Standard2.0 and X
 
 # Nuget
 
-> Install-Package ArkLight -Version 0.0.2
+> Install-Package ArkLight 
 
-> dotnet add package ArkLight --version 0.0.2
+> dotnet add package ArkLight 
 
-> paket add ArkLight --version 0.0.2
+> paket add ArkLight 
 
 # Dependencies
 
