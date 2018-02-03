@@ -1,5 +1,4 @@
 ﻿using System;
-
 using ArkLight.Util;
 
 namespace ArkLight.Example

@@ -37,7 +37,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cmd\RunCommand.cs" />
     <Compile Include="Collection\ICollectionExtension.cs" />
+    <Compile Include="Config\IniFile.cs" />
+    <Compile Include="IO\DirFile.cs" />
     <Compile Include="Model\BaseModel.cs" />
     <Compile Include="Model\IBaseModel.cs" />
     <Compile Include="Model\ObservableObject.cs" />
@@ -45,23 +48,44 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Service\ServiceLocator.cs" />
     <Compile Include="Util\BarCodeToHTML.cs" />
+    <Compile Include="Util\ChinaDate.cs" />
     <Compile Include="Util\ClassObjectDeepCloneUtil.cs" />
+    <Compile Include="Util\ConvertHelper.cs" />
     <Compile Include="Util\CsvHelper.cs" />
     <Compile Include="Util\DateTimeUtil.cs" />
+    <Compile Include="Util\DEncrypt.cs" />
     <Compile Include="Util\EcanConvertToCh.cs" />
+    <Compile Include="Util\Encrypt.cs" />
     <Compile Include="Util\FormulaDeal.cs" />
+    <Compile Include="Util\HashEncode.cs" />
     <Compile Include="Util\HtmlUtil.cs" />
     <Compile Include="Util\IoUtil.cs" />
+    <Compile Include="Util\MemoryShare.cs" />
+    <Compile Include="Util\MySecurity.cs" />
     <Compile Include="Util\NumberUtil.cs" />
+    <Compile Include="Util\ObjectUtil.cs" />
+    <Compile Include="Util\OSUtil.cs" />
     <Compile Include="Util\PinYin.cs" />
     <Compile Include="Util\RegexUtil.cs" />
     <Compile Include="Util\RmbUtil.cs" />
+    <Compile Include="Util\RSACryption.cs" />
+    <Compile Include="Util\SerializeHelper.cs" />
     <Compile Include="Util\StringCAPTCHA.cs" />
+    <Compile Include="Util\StringHelper.cs" />
     <Compile Include="Util\StructHelper.cs" />
+    <Compile Include="Util\UrlUtil.cs" />
+    <Compile Include="Web\HtmlHelper.cs" />
+    <Compile Include="Web\Mail\MailAttachments.cs" />
+    <Compile Include="Web\Mail\MailFormat.cs" />
+    <Compile Include="Web\Mail\MailHelper.cs" />
+    <Compile Include="Web\Mail\MailPriority.cs" />
+    <Compile Include="Web\Mail\SmtpMail.cs" />
+    <Compile Include="Web\NetHelper.cs" />
+    <Compile Include="Web\WebSitePathHelper.cs" />
+    <Compile Include="Xml\XmlHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Extension\" />
-    <Folder Include="Security\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

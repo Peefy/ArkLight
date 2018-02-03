@@ -10,16 +10,17 @@ namespace ArkLight.Service
     public sealed class ServiceLocator
     {
         static ServiceLocator instance;
-        Dictionary<Type, object> registeredServices = new Dictionary<Type, object>();
 
         /// <summary>
-        ///     Singleton instance for default service locator
+        /// Singleton instance for default service locator
         /// </summary>
         public static ServiceLocator Instance =>
             instance ?? (instance = new ServiceLocator());
 
+        static Dictionary<Type, object> registeredServices = new Dictionary<Type, object>();
+
         /// <summary>
-        ///     Add a new contract + service implementation
+        /// Add a new contract + service implementation
         /// </summary>
         /// <typeparam name="TContract">Contract type</typeparam>
         /// <typeparam name="TService">Service type</typeparam>

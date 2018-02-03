@@ -136,7 +136,7 @@ namespace ArkLight.Util
             return "<div style=\"background:#FFFFFF;padding:5px;font-size:" + (width * 10) + "px;font-family:'楷体';\">" + result_html + "</div>";
         }
 
-        public static string getEAN13(string s, int width, int height)
+        public static string GetEAN13(string s, int width, int height)
         {
             int checkcode_input = -1;//输入的校验码
             if (!Regex.IsMatch(s, @"^\d{12}$"))

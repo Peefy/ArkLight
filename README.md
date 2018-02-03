@@ -5,45 +5,47 @@ A C# util library support .NET Framework2.0+ .NET Core2.0 .NET Standard2.0 and X
 
 # Nuget
 
-> Install-Package ArkLight -Version 0.0.1
+> Install-Package ArkLight -Version 0.0.2
 
-> dotnet add package ArkLight --version 0.0.1
+> dotnet add package ArkLight --version 0.0.2
 
-> paket add ArkLight --version 0.0.1
+> paket add ArkLight --version 0.0.2
 
 # Dependencies
 
 * .NETFramework 2.0 : None
 
-* .NETFramework 3.0 (.NET2.0): None
+* .NETFramework 3.0 (Dependency .NET2.0): None
 
-* .NETFramework 3.5 (.NET2.0): None
+* .NETFramework 3.5 (Dependency .NET2.0): None
 
-* .NETFramework 4.0 (.NET2.0): None
+* .NETFramework 4.0 (Dependency .NET2.0): None
 
-* .NETFramework 4.5 (.NET4.5): None
+* .NETFramework 4.5 (Dependency .NET4.5): None
 
-* .NETFramework 4.6+ (.NET4.5): None
+* .NETFramework 4.6+ (Dependency .NET4.5): None
 
-* .NETCore 2.0+  (.NETStandard2.0) : None
+* .NETCore 2.0+  (Dependency .NETStandard2.0) : None
 
 * .NETStandard 2.0+ : *NETStandard.Library -Version 2.0.0*
 
-* Xamarin.Android (.NETStandard2.0) : None
+* Xamarin.Android (Dependency .NETStandard2.0) : None
 
-* Xamarin.iOS (.NETStandard2.0) : None
+* Xamarin.iOS (Dependency .NETStandard2.0) : None
 
-* Xamarin.Mac (.NETStandard2.0) : None
+* Xamarin.Mac (Dependency .NETStandard2.0) : None
 
-* Xamarin.Forms (.NETStandard2.0) : None
+* Xamarin.Forms (Dependency .NETStandard2.0) : None
 
-* UWP (.NETStandard2.0) : None
+* UWP (Dependency .NETStandard2.0) : None
 
-* WP (.NETStandard1.0) : None
+* WP (Dependency .NETStandard1.0) : None
 
-* SliverLight (.NETStandard1.0) : None
+* SliverLight (Dependency .NETStandard1.0) : None
 
-* Mono (.NETStandard1.0) : None
+* Mono/Gtk# (Dependency .NETStandard2.0) : None
+
+* Unity : Not Supported. But you can download code and add to your project.
 
 # Docs
 
