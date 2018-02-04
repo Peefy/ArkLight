@@ -34,7 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="ArkLight, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\ArkLight.0.0.1\lib\net45\ArkLight.dll</HintPath>
+      <HintPath>..\..\packages\ArkLight.0.0.2\lib\net45\ArkLight.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
