@@ -5,8 +5,16 @@
     <RootNamespace>ArkLight.Example</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
   <ItemGroup>
-    <PackageReference Include="ArkLight" Version="0.0.1" />
+    <PackageReference Include="ArkLight" Version="0.0.2" />
   </ItemGroup>
 
 </Project>
