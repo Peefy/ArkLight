@@ -14,6 +14,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+using ArkLight.Example.ViewModels;
+
 using ArkLight.Util;
 
 namespace ArkLight.Example.WpfAppNet45
@@ -23,10 +25,12 @@ namespace ArkLight.Example.WpfAppNet45
     /// </summary>
     public partial class MainWindow : Window
     {
+        MainWindowViewModel _viewModel;
+
         public MainWindow()
         {
             InitializeComponent();
-            Title = RegexUtil.IsEmail("123@qq.com").ToString();
+            this.DataContext = _viewModel = new MainWindowViewModel();
         }
     }
 }

@@ -29,6 +29,7 @@ namespace ArkLight.Example
             dayInfo.Append("星座：" + c.Constellation + "\r\n");
             Console.WriteLine(dayInfo.ToString());
             Console.WriteLine(RegexUtil.IsEmail("xpf6677@163.com"));
+            Console.WriteLine(RmbUtil.CmycurD("123.45"));
             Console.ReadLine();
         }
     }

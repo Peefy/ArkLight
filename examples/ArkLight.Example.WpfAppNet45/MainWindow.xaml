@@ -2,12 +2,48 @@
     x:Class="ArkLight.Example.WpfAppNet45.MainWindow"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:cons="clr-namespace:ArkLight.Example.Converters"
+    xmlns:ctrls="clr-namespace:ArkLight.Example.Controls"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:local="clr-namespace:ArkLight.Example.WpfAppNet45"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-    Title="MainWindow"
-    Width="525"
-    Height="350"
+    Title="{Binding Title}"
+    Width="325"
+    Height="450"
     mc:Ignorable="d">
-    <Grid />
+    <Window.Resources>
+        <ResourceDictionary>
+            <Style TargetType="Label">
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="VerticalAlignment" Value="Center" />
+            </Style>
+            <Style TargetType="TextBox">
+                <Setter Property="FontSize" Value="18" />
+                <Setter Property="VerticalAlignment" Value="Center" />
+            </Style>
+            <cons:NumberToRmbStringConverter x:Key="NumberToRmbStringConverter" />
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="40" />
+            <RowDefinition Height="40" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="40" />
+        </Grid.RowDefinitions>
+        <TextBox x:Name="rmbEntry" Grid.Row="0" />
+        <Label Grid.Row="1" Content="{Binding ElementName=rmbEntry, Path=Text, Converter={StaticResource NumberToRmbStringConverter}}" />
+        <Label
+            Grid.Row="2"
+            VerticalAlignment="Top"
+            Content="{Binding TodayInfo}" />
+        <StackPanel Grid.Row="3" Orientation="Horizontal">
+            <Button Command="{Binding YesterdayCommand}" Content="Yesterday" />
+            <Button
+                Margin="20,0,0,0"
+                Command="{Binding TomorrowCommand}"
+                Content="Tomorrow" />
+        </StackPanel>
+
+    </Grid>
 </Window>
