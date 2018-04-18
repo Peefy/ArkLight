@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
   <metadata>
     <id>ArkLight</id>
-    <version>0.0.2</version>
+    <version>0.0.3</version>
     <authors>DuGu.Peefy</authors>
     <owners>xpf6677@163.com</owners>
     <iconUrl>https://github.com/Peefy/ArkLight/blob/master/images/icon.png?raw=true</iconUrl>
